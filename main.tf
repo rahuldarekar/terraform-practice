@@ -38,6 +38,7 @@ provider "aws" {
 output "my_region" {
   description = "Region Name"
   value       = var.region
+  sensitive = true
 }
 
 
