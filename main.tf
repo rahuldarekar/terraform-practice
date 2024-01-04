@@ -35,6 +35,10 @@ provider "aws" {
 }
 
 # Add .gitignore file in this directory with the terraform.tfvars
+output "my_region" {
+  description = "Region Name"
+  value       = var.region
+}
 
 
 # resource "aws_dynamodb_table" "basic-dynamodb-table" {
