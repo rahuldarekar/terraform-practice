@@ -76,7 +76,7 @@ resource "aws_dynamodb_table" "basic-dynamodb-table" {
   }
 
   tags = {
-    Name        = "tc-vc-triggered-1"
+    Name        = "tc-vc-triggered-2"
     Environment = "production"
   }
 
